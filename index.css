@@ -58,6 +58,8 @@ body {
 .card {
 	background: #3d0610;
 	color: #fff;
+	margin-right: 0!important;
+	margin-left: 0!important;
 }
 .container-fluid {
 	padding: 0!important;
@@ -82,6 +84,9 @@ footer p {
 footer > p > span {
 	padding: 0 5px;
 }
+footer > p > span > a {
+	color: #fff;
+}
 a {
 	text-decoration: none;
 }
@@ -100,4 +105,12 @@ a {
   .card-deck {
     display: block!important;
   }
+
+}
+@media only screen and (min-width: 821px) {
+  #projects .card {
+		margin-left: 15px!important;
+		margin-right: 15px!important;
+	}
+
 }
